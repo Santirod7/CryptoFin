@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-      </style>
+      @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
     <title>CryptoBootstrap</title>
   </head>
   <body>
@@ -44,23 +44,29 @@
           <div class="collapse navbar-collapse" id="OpcionesMenu">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="sobrenosotros.html">¿Quienes somos?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./preguntas frecuentes.html">Preguntas frecuentes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./error 404.html"
-                  >Robo o extravio</a
+                <a class="nav-link" href="sobrenosotros.html"
+                  >¿Quienes somos?</a
                 >
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="./preguntas frecuentes.html"
+                  >Preguntas frecuentes</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./error 404.html">Robo o extravio</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="./contactos.html">Contactos</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -81,71 +87,160 @@
           <div class="col-md-6 my-4">
             <form>
               <div class="my-2">
-                <label for="nombreApellido" class="form-label">Nombre y apellido: *</label>
-                <input type="text" class="form-control" id="nombreApellido" required minlength="5" maxlength="100" placeholder="Ej. Santiago Abascal">
+                <label for="nombreApellido" class="form-label"
+                  >Nombre y apellido: *</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombreApellido"
+                  required
+                  minlength="5"
+                  maxlength="100"
+                  placeholder="Ej. Santiago Abascal"
+                />
               </div>
               <div class="my-2">
                 <label for="email" class="form-label">Email: *</label>
-                <input type="email" class="form-control" id="email" required minlength="5" maxlength="320" placeholder="Ej. SantiaAbascal@gmail.com">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  required
+                  minlength="5"
+                  maxlength="320"
+                  placeholder="Ej. SantiaAbascal@gmail.com"
+                />
               </div>
               <div class="my-2">
                 <label for="consulta" class="form-label">Consulta: *</label>
-                <textarea name="consulta" id="consulta" class="form-control w-100 mb-3 areadeconsulta" placeholder="Dinos tu consulta"></textarea>
+                <textarea
+                  name="consulta"
+                  id="consulta"
+                  class="form-control w-100 mb-3 areadeconsulta"
+                  placeholder="Dinos tu consulta"
+                ></textarea>
               </div>
-              <button type="submit" class="btn btn-outline-light">Enviar</button>
+              <button type="submit" class="btn btn-outline-light">
+                Enviar
+              </button>
             </form>
-
           </div>
-          <div class="bg-body-secondary col-md-6 my-4">
-            aqui pondremos un mapita
+          <div class="col-md-6 my-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.6633428966206!2d-65.2015166064695!3d-26.818846199409474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c23b7b6e863%3A0x976c9adc5013942c!2sUniversidad%20Tecnol%C3%B3gica%20Nacional%20-%20Facultad%20Regional%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1717700697577!5m2!1ses-419!2sar"
+              height="450"
+              class="w-100"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </article>
       </section>
     </main>
     <footer class="py-5 bg-secondary-subtle text-center text-md-start">
       <section class="container">
-      <article class="d-inline mb-4">
-        <h4 class="black-han-sans-regular d-inline">CryptoBootstrap</h4>
-        <a class="ms-2 link-secondary" href="#"
-        ><i class="bi bi-facebook"></i
-      ></a>
-      <a class="ms-2 link-secondary" href="#"
-        ><i class="bi bi-twitter-x"></i
-      ></a>
-      <a class="ms-2 link-secondary" href="#"
-        ><i class="bi bi-instagram"></i
-      ></a>
-      </article>
-      <article class="row my-4">
-      <div class="col-md-6 col-lg-3">
-        <h5 class="text-secondary">Navegación</h5>
-        <ul class="list-unstyled">
-          <li class="text-decoration-none"><a class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover" href="">¿Quienes somos?</a></li>
-          <li class="text-decoration-none"><a class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover" href="">Precios</a></li>
-          <li class="text-decoration-none"><a class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover" href="">Seguridad</a></li>
-          <li class="text-decoration-none"><a class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover" href="">Ayuda</a></li>
-          <li class="text-decoration-none"><a class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover" href="">Robo o extravio</a></li>
-        </ul>
-      </div>
-      <div class="col-md-6 col-lg-3">
-        <h5 class="text-secondary">Contacto</h5>
-        <ul class="list-unstyled">
-          <li class="text-decoration-none"><a class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover" href="">Email:contacto@.gmail.com</a></li>
-          <li class="text-decoration-none"><a class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover" href="">Telefono: 381-374-5062</a></li>
-          <li class="text-decoration-none"><a class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover" href="">Direccion: Av.Washington 300</a></li>
-          <li class="text-decoration-none"><a class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover" href="">Terminos y condiciones</a></li>
-        </ul>
-      </div>
-      <div class="col-md-6 col-lg-3">
-        <img src="../img/usuariosfinancieros.png" alt="" class="w-75" />
-      </div>
-      <div class="col-md-6 col-lg-3">
-        <h5 class="text-secondary mt-3 mt-md-0">Unite</h5>
+        <article class="d-inline mb-4">
+          <h4 class="black-han-sans-regular d-inline">CryptoBootstrap</h4>
+          <a class="ms-2 link-secondary" href="#"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a class="ms-2 link-secondary" href="#"
+            ><i class="bi bi-twitter-x"></i
+          ></a>
+          <a class="ms-2 link-secondary" href="#"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </article>
+        <article class="row my-4">
+          <div class="col-md-6 col-lg-3">
+            <h5 class="text-secondary">Navegación</h5>
+            <ul class="list-unstyled">
+              <li class="text-decoration-none">
+                <a
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href=""
+                  >¿Quienes somos?</a
+                >
+              </li>
+              <li class="text-decoration-none">
+                <a
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href=""
+                  >Precios</a
+                >
+              </li>
+              <li class="text-decoration-none">
+                <a
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href=""
+                  >Seguridad</a
+                >
+              </li>
+              <li class="text-decoration-none">
+                <a
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href=""
+                  >Ayuda</a
+                >
+              </li>
+              <li class="text-decoration-none">
+                <a
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href=""
+                  >Robo o extravio</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h5 class="text-secondary">Contacto</h5>
+            <ul class="list-unstyled">
+              <li class="text-decoration-none">
+                <a
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href=""
+                  >Email:contacto@.gmail.com</a
+                >
+              </li>
+              <li class="text-decoration-none">
+                <a
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href=""
+                  >Telefono: 381-374-5062</a
+                >
+              </li>
+              <li class="text-decoration-none">
+                <a
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href=""
+                  >Direccion: Av.Washington 300</a
+                >
+              </li>
+              <li class="text-decoration-none">
+                <a
+                  class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href=""
+                  >Terminos y condiciones</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <img src="../img/usuariosfinancieros.png" alt="" class="w-75" />
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h5 class="text-secondary mt-3 mt-md-0">Unite</h5>
             <img src="../img/badge-apple-store.svg" alt="" class="w-75 py-1" />
-            <img src="../img/google-play-badge-bb.svg" alt="" class="w-75 py-1" />
-      </div>
-    </article>
-  </section>
+            <img
+              src="../img/google-play-badge-bb.svg"
+              alt=""
+              class="w-75 py-1"
+            />
+          </div>
+        </article>
+      </section>
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
