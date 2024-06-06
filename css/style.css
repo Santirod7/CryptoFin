@@ -1,0 +1,29 @@
+
+.black-han-sans-regular {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 500;
+    font-style:normal;
+  }
+  body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+  main{
+  flex-grow: 1;
+}
+.bannerscarousel{
+  height: 500px;
+  object-fit: cover;
+}
+.areadeconsulta{
+height: 100px;
+resize: none;
+}
+
+@media all and (min-width: 992px){
+.bannerscarousel{
+  height: 500px;
+}
+
+}
